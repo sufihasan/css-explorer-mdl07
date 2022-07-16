@@ -1,0 +1,31 @@
+.ovflw {
+
+    height: 200px;
+    width: 400px;
+    border: 2px solid green;
+
+    /* overflow: hidden; */
+
+    /* overflow: scroll;
+    overflow-x: hidden; */
+
+
+
+    overflow-y: scroll;
+
+}
+
+
+.more {
+
+    width: 300px;
+    border: 2px solid yellow;
+    /* overflow: hidden; */
+}
+
+.shrt-txt {
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
