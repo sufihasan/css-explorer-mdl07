@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .monitor {
+
+            height: 250px;
+            width: 350px;
+            border: 5px solid green;
+            background-color: lightpink;
+        }
+
+        .ball {
+
+            height: 50px;
+            width: 50px;
+
+            background-color: green;
+            border-radius: 50%;
+            animation: anima 2s ease-in-out .10s 10 alternate;
+            animation-play-state: running;
+            position: relative;
+        }
+
+        .ball2 {
+
+            height: 50px;
+            width: 50px;
+
+            background-color: green;
+            border-radius: 50%;
+            animation: anima 2s ease-in-out .30s 10 alternate;
+            animation-play-state: running;
+            position: relative;
+        }
+
+        .ball3 {
+
+            height: 50px;
+            width: 50px;
+
+            background-color: green;
+            border-radius: 50%;
+            animation: anima 2s ease-in-out .50s 10 alternate;
+            animation-play-state: running;
+            position: relative;
+        }
+
+
+        @keyframes anima {
+
+            0% {
+                background-color: salmon;
+                left: 0px;
+                top: 0px;
+
+
+            }
+
+            25% {
+
+                top: 150px;
+                transform: scale(.5);
+
+
+            }
+
+            50% {
+
+                top: 0px;
+
+
+            }
+
+            75% {
+
+                top: 150px;
+                transform: scale(.5);
+
+
+            }
+
+            100% {
+                background-color: chartreuse;
+                left: 300px;
+                top: 0px;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="monitor">
+
+        <div class="ball">
+
+
+        </div>
+
+        <div class="ball2">
+
+
+        </div>
+
+        <div class="ball3">
+
+
+        </div>
+    </div>
+</body>
+
+</html>
